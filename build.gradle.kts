@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.13.1")
+    testImplementation("com.willowtreeapps.assertk:assertk:0.28.1")
 }
 
 tasks.test {
